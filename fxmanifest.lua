@@ -1,0 +1,5 @@
+game 'common'
+fx_version 'adamant'
+lua54 'yes'
+author 'Gllory#2348'
+server_script 'server.lua'
