@@ -34,7 +34,7 @@ function CheckStatus()
         convertJson = json.decode(text)
         Status_Description = convertJson['status']['description']
         Status_Issue = convertJson['status']['indicator']
-        if Status_Description ~= "Visas sistēmas darbojas" then 
+        if Status_Description ~= "All Systems Operational" then 
             print("====== Pārbaudam CFX Traucējumus ======")
             print("Laiks - " ..getCurrentTime())
             print("Problēma - " .. Status_Issue)
